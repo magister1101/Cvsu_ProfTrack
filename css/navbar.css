@@ -1,0 +1,74 @@
+.navbar {
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.20);
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+ 
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+/*navbar icons*/
+
+.prof_img{
+  padding: 0;
+  margin-left: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.room_img{
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.map_img{
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.announcement_img{
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.user_profile_img{
+  padding: 0;
+  margin-right: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+
+
